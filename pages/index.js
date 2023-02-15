@@ -19,7 +19,7 @@ const Home = () => {
             <h1>this will get a text later</h1>
           </div>
           <div className="header-subtitle">
-            <h2>insert your subtitle here</h2>
+            <h2>as a later subtitle as well</h2>
           </div>
         </div>
         {/* Add this code here*/}
@@ -29,7 +29,7 @@ const Home = () => {
             placeholder="start typing here"
             value={userInput}
             onChange={onUserChangedText}
-          />;
+          />
         </div>
       </div>
     </div>
